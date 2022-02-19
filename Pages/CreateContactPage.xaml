@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Exam.Pages.CreateContactPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exam.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="500" >
+            <StackPanel Width="400">
+                <TextBox x:Name="txtName" Header="Name" FontSize="18"/>
+                <TextBlock x:Name="msgName"  Foreground="Red" FontSize="14" />
+                <TextBox x:Name="txtPhone" Header="PhoneNumber" FontSize="18" Margin="0 10 0 0"/>
+                <TextBlock x:Name="msgPhone"     Foreground="Red" FontSize="14" />
+                <StackPanel Margin="0 10 0 0" HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Button 
+                        Content="Add Contact"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Width="200"
+                        Height="35"
+                        Click="Button_Click"/>
+                </StackPanel>
+            </StackPanel>
+            
+    </Grid>
+    </Grid>
+</Page>
