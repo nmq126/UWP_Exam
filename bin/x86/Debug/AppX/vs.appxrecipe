@@ -30,17 +30,29 @@
     <AppXManifest Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-19T12:29:58.839</Modified>
+      <Modified>2022-02-19T13:22:24.777</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Exam.exe">
       <PackagePath>entrypoint\Exam.exe</PackagePath>
-      <Modified>2022-02-19T12:29:52.874</Modified>
+      <Modified>2022-02-19T13:22:24.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.data.sqlite.core\6.0.2\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
       <Modified>2022-01-15T00:02:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.toolkit\7.1.2\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2021-11-18T22:28:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.toolkit.uwp\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2021-11-18T22:29:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\.nuget\packages\microsoft.toolkit.uwp.ui\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2021-11-18T22:29:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -110,19 +122,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Exam.xr.xml">
       <PackagePath>Exam.xr.xml</PackagePath>
-      <Modified>2022-02-19T12:29:52.700</Modified>
+      <Modified>2022-02-19T13:22:24.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-19T12:29:52.709</Modified>
+      <Modified>2022-02-19T13:22:24.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-19T12:29:52.709</Modified>
+      <Modified>2022-02-19T13:22:24.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Pages\CreateContactPage.xbf">
       <PackagePath>Pages\CreateContactPage.xbf</PackagePath>
-      <Modified>2022-02-19T12:29:52.709</Modified>
+      <Modified>2022-02-19T13:22:24.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Pages\SearchContactPage.xbf">
+      <PackagePath>Pages\SearchContactPage.xbf</PackagePath>
+      <Modified>2022-02-19T13:22:24.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-19T12:29:53.993</Modified>
+      <Modified>2022-02-19T13:22:24.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Core\Exam.exe">
       <PackagePath>Exam.exe</PackagePath>
-      <Modified>2022-02-19T12:29:58.834</Modified>
+      <Modified>2022-02-19T13:22:24.772</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

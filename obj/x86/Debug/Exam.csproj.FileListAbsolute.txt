@@ -60,3 +60,16 @@ C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\resources.en.resfiles.intermedia
 C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\SQLitePCL.Ext.pri.xml
 C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Pages\SearchContactPage.xbf
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.dll
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.pdb
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+C:\Users\PC\source\repos\Lab\Exam\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Pages\SearchContactPage.g.i.cs
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Pages\SearchContactPage.g.cs
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Pages\SearchContactPage.xaml
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Pages\SearchContactPage.xbf
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\PC\source\repos\Lab\Exam\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml

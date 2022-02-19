@@ -67,7 +67,7 @@ namespace Exam
                     // configuring the new page by passing required information as a navigation
                     // parameter
                     Data.DatabaseInitialize.CreateTables();
-                    rootFrame.Navigate(typeof(Pages.CreateContactPage), e.Arguments);
+                    rootFrame.Navigate(typeof(Pages.SearchContactPage), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

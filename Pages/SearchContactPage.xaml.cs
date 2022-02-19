@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +23,53 @@ namespace Exam.Pages
     /// </summary>
     public sealed partial class SearchContactPage : Page
     {
+        private int validateCheck;
         public SearchContactPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (ValidateForm())
+              {
+                return;
+            }
+            var contact = Data.DatabaseInitialize.getContactByName(txtName.Text);
+            if (contact == null)
+            {
+                txtNotFound.Visibility = Visibility.Visible;
+                txtFound.Visibility = Visibility.Collapsed;
+                Debug.WriteLine("notfound");
+            }
+            else
+            {
+                txtNotFound.Visibility = Visibility.Collapsed;
+                txtFound.Visibility = Visibility.Visible;
+                foundName.Text = contact.Name;
+                foundPhone.Text = contact.PhoneNumber;
+                Debug.WriteLine("found");
+
+            }
+        }
+        private bool ValidateForm()
+        {
+            validateCheck = 0;
+            if (string.IsNullOrEmpty(txtName.Text))
+            {
+                msgName.Text = "*Please enter name";
+                validateCheck++;
+            }
+            else
+            {
+                msgName.Text = "";
+            }
+            return validateCheck > 0;
+        }
+
+        private void TextBlock_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Pages.CreateContactPage));
         }
     }
 }

@@ -2,6 +2,7 @@
 using SQLitePCL;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,30 @@ namespace Exam.Data
                     list.Add(contact);
                 }
                 return list;
+            }
+        }
+        public static Contact getContactByName(string name)
+        {
+            Contact contact = null;
+            try
+            {
+                using (var stt = cnn.Prepare($"select * from Contact where Name Like '%{name}%' LIMIT 1"))
+                {
+                    while (stt.Step() == SQLiteResult.ROW) {
+
+                        contact = new Contact()
+                        {
+                            Name = (string)stt["Name"],
+                            PhoneNumber = (string)stt["PhoneNumber"]
+                        };
+                    }
+                }
+                return contact;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("ex");
+                return null;
             }
         }
     }

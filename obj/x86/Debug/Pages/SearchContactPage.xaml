@@ -21,23 +21,23 @@
         </Grid.ColumnDefinitions>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Width="500" >
             <StackPanel Width="400">
-                <TextBox x:Name="txtName" Header="Name" FontSize="18"/>
-                <TextBlock x:Name="msgName"  Foreground="Red" FontSize="14" />
-                <TextBox x:Name="txtPhone" Header="PhoneNumber" FontSize="18" Margin="0 10 0 0"/>
-                <TextBlock x:Name="msgPhone"     Foreground="Red" FontSize="14" />
+                <TextBox x:ConnectionId='6' x:Name="txtName" Header="Name" FontSize="18"/>
+                <TextBlock x:ConnectionId='7' x:Name="msgName"  Foreground="Red" FontSize="14" />
+                <TextBox x:ConnectionId='8' x:Name="txtPhone" Header="PhoneNumber" FontSize="18" Margin="0 10 0 0"/>
+                <TextBlock x:ConnectionId='9' x:Name="msgPhone"     Foreground="Red" FontSize="14" />
                 <StackPanel Margin="0 10 0 0" HorizontalAlignment="Center" Orientation="Horizontal">
-                    <Button 
+                    <Button x:ConnectionId='11' 
                         Content="Search Contact"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Width="200"
                         Height="35"
-                        Click="Button_Click"/>
+                                            />
                 </StackPanel>
-                <TextBlock Margin="0 20 0 0" TextDecorations="Underline" Foreground="Blue" FontSize="14" HorizontalAlignment="Center" Text="Go to create contact" PointerPressed="TextBlock_PointerPressed"/>
+                <TextBlock x:ConnectionId='10' Margin="0 20 0 0" TextDecorations="Underline" Foreground="Blue" FontSize="14" HorizontalAlignment="Center" Text="Go to create contact"                                          />
             </StackPanel>
         </Grid>
-        <Grid x:Name="txtFound" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="500" >
+        <Grid x:ConnectionId='2' x:Name="txtFound" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="500" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -49,13 +49,14 @@
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Row="0" Text="Contact found"/>
             <TextBlock Grid.Row="1" Grid.Column="0" Text="Name: "/>
-            <TextBlock x:Name="foundName" Grid.Row="1" Grid.Column="1" Text=""/>
+            <TextBlock x:ConnectionId='4' x:Name="foundName" Grid.Row="1" Grid.Column="1" Text=""/>
             <TextBlock Grid.Row="2" Grid.Column="0" Text="Phone number: "/>
-            <TextBlock x:Name="foundPhone" Grid.Row="2" Grid.Column="1" Text=""/>
+            <TextBlock x:ConnectionId='5' x:Name="foundPhone" Grid.Row="2" Grid.Column="1" Text=""/>
 
         </Grid>
-        <Grid x:Name="txtNotFound" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="500" >
+        <Grid x:ConnectionId='3' x:Name="txtNotFound" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="500" >
             <TextBlock VerticalAlignment="Center" Text="Contact not found"/>
         </Grid>
     </Grid>
 </Page>
+

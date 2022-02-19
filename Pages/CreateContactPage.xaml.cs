@@ -79,5 +79,9 @@ namespace Exam.Pages
             }
             return validateCheck > 0;
         }
+        private void TextBlock_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Pages.SearchContactPage));
+        }
     }
 }
